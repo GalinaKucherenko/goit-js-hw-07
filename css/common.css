@@ -95,9 +95,8 @@ img {
 .gallery {
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;
   width: 1128px;
-  padding: 100px 156px;
+  padding: 50px 20px;
 }
 
 /* ***task-3*** */
@@ -112,9 +111,7 @@ img {
   border-radius: 4px;
   width: 360px;
   height: 40px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 16px;
+  padding: 8px 16px;
   margin-bottom: 16px;
 }
 .output {
@@ -183,12 +180,14 @@ img {
   padding: 32px;
   background: #f6f6fe;
   margin-bottom: 16px;
-  width: 486px;
   border-radius: 8px;
+}
+#boxes {
+  flex-wrap: wrap;
 }
 .input-number {
   border-radius: 8px;
-  padding: 8px 72px;
+  text-align: center;
   width: 150px;
   height: 40px;
 }
@@ -204,24 +203,4 @@ img {
 }
 .destroy:hover {
   background: #ff7070;
-}
-.boxes-item-1 {
-  width: 16px;
-  height: 16px;
-  background: #799cd2;
-}
-.boxes-item-2 {
-  width: 48px;
-  height: 48px;
-  background: #8cb9d4;
-}
-.boxes-item-3 {
-  width: 72px;
-  height: 72px;
-  background: #ade1d1;
-}
-.boxes-item-4 {
-  width: 96px;
-  height: 96px;
-  background: #d1ebde;
 }
