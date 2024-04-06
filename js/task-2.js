@@ -15,12 +15,10 @@ const images = [
 
 const gallery = document.querySelector(".gallery");
 
-images.forEach(image => {
-  const item = document.createElement("li");
-  const picture = document.createElement("img");
-  picture.src = image.url;
-  picture.alt = image.alt;
+let pictures = '';
 
-  item.append(picture);
-  gallery.append(item);
+images.forEach(image => {
+  pictures += `<li><img src="${image.url}" alt="${image.alt}"></li>`;
 });
+
+gallery.innerHTML = pictures;

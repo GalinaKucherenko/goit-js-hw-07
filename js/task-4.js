@@ -1,4 +1,4 @@
-const findForm = document.querySelector("form");
+const findForm = document.querySelector(".login-form");
 
 findForm.addEventListener("submit", handleSubmit);
 
